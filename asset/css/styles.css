@@ -2,6 +2,91 @@
 @import url('normalize.css');
 @import url('common.css');
 
-h1{
-    color: red;
+.first-page{
+    background: url('../images/icons/background-main.png') no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 937px;
+    background-position: bottom center;
+    position: relative;
+}
+
+.bg-black{
+    width: 100%;
+    height: 937px;
+    position: absolute;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.34) 49%, rgba(56,56,56,0) 100%);
+
+}
+
+.sub-title h1{
+    color: #F37F81;
+    font-size: 24px;
+    letter-spacing: 0%;
+    font-weight: 600;
+}
+
+.main-title h2{
+    color: #FDF9F9;
+    font-size: 56px;
+    letter-spacing: 0%;
+    font-weight: 700;
+}
+
+.description-1{
+    color: #FDF9F9;
+    font-size: 20px;
+    letter-spacing: 1%;
+}
+
+.m-t-0{
+    margin-top: 0;
+}
+
+.title-point{
+    color: #FF1014;
+    padding: 0 10px;
+    z-index: 2;
+}
+
+.text-page{
+    position: absolute;
+    z-index: 999;
+    margin-top: 0;
+    left: 278px;
+    top: 263px;
+    text-align: center;
+}
+
+.buttons{
+    position:absolute;
+    left: 305px;
+    top: 563px;
+    display: flex;
+}
+
+.btn1{
+    width: 140px;
+    height: 45px;
+    background: #FF1014;
+    color: #fdf9f9;
+    font-size: 16px;
+    border-style: none;
+    border-radius: 100px;
+    margin-right: 20px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.btn2{
+    width: 140px;
+    height: 45px;
+    background: none;
+    border: 2px solid #fff;
+    /* border-color: #fff; */
+    font-size: 16px;
+    color: #fdf9f9;
+    border-radius: 100px;
+    z-index: 100;
+    cursor: pointer;
 }
