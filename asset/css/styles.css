@@ -37,6 +37,7 @@
     color: #FDF9F9;
     font-size: 20px;
     letter-spacing: 1%;
+    font-weight: 300;
 }
 
 .m-t-0{
@@ -76,6 +77,7 @@
     margin-right: 20px;
     z-index: 100;
     cursor: pointer;
+    font-weight: 600;
 }
 
 .btn2{
@@ -89,4 +91,34 @@
     border-radius: 100px;
     z-index: 100;
     cursor: pointer;
+    font-weight: 600;
+}
+
+/*second page start*/
+.second-page-container{
+    width: 1360px;
+    margin: 0 auto;
+}
+
+.second-page-text{
+    text-align: center;   
+}
+
+
+.second-page-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-page-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    border: 1px solid rgba(206, 104, 104, 0.6);
+    border-radius: 40px;
+    height: 250px;
 }
