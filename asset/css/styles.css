@@ -115,10 +115,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #FCE7E7;
+    border: 1px solid #FCE7E7;
+    width: 103px;
+    height: 103px;
+    border-style: none;
+    border-radius: 100px;
 }
 
 .box{
     border: 1px solid rgba(206, 104, 104, 0.6);
     border-radius: 40px;
-    height: 250px;
+    height: 403px;
+}
+
+.second-page .d-flex{
+    gap: 0 1.5375rem;
 }
