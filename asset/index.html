@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>카통령</title>
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -11,18 +12,18 @@
         <div class="bg-black"></div>
         <div class="text-page">
             <div class="sub-title">
-                <h1 class="m-t-0">대한민국 중고차 할인 #1</h1>
+                <h1 class="m-t-0 top-title wow fadeInDown" data-wow-duration="0.8s" data-wow-delay="0.5s">대한민국 중고차 할인 #1</h1>
             </div>
             <div class="main-title">
-                <h2>선납금 0원 기준<br><span class="title-point">100만원</span> 할인!</h2>
+                <h2 class="top-title wow fadeInDown" data-wow-duration="0.8s" data-wow-delay="0.5s">선납금 0원 기준<br><span class="title-point">100만원</span> 할인!</h2>
             </div>
             <div class="description-1">
-                <p>특가 차량 할인 이벤트! 선착순 특가! <br> 인기모델 최대 30% 할인!</p>
+                <p class="top-title wow fadeInDown" data-wow-duration="0.8s" data-wow-delay="0.5s">특가 차량 할인 이벤트! 선착순 특가! <br> 인기모델 최대 30% 할인!</p>
             </div>
         </div>
         <div class="buttons">
-            <button type="submit" class="btn1">차량 검색</button>
-            <button type="submit" class="btn2">더보기</button>
+            <button type="submit" class="btn1 top-title wow fadeInDown" data-wow-duration="0.8s" data-wow-delay="0.5s">차량 검색</button>
+            <button type="submit" class="btn2 top-title wow fadeInDown" data-wow-duration="0.8s" data-wow-delay="0.5s">더보기</button>
         </div>
     </section>
 
@@ -77,5 +78,10 @@
             </div>
         </div>
     </section>
+
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();   
+    </script>
 </body>
 </html>
