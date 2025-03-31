@@ -70,6 +70,7 @@
     width: 140px;
     height: 45px;
     background: #FF1014;
+    border-color: none;
     color: #fdf9f9;
     font-size: 16px;
     border-style: none;
@@ -185,4 +186,238 @@
 
 .second-page .d-flex{
     gap: 0 1.5375rem;
+}
+
+/*Responsive 1280, 1024, 768, 540, 348*/
+@media (max-width: 1280px){
+    .first-page{
+        background: url('../images/icons/background-main.png') no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        background-position: bottom center;
+        position: relative;
+    }
+
+    .text-page{
+        padding-left: 0.1rem;
+    }
+
+    .buttons{
+        position: relative;
+        padding-left: 0.1rem;
+    }
+
+    .sub-title h1{
+        font-size: 20px;
+    }
+
+    .main-title h2{
+        font-size: 48px;
+    }
+
+    .description-1{
+        font-size: 16px;
+    }
+
+    .btn1{
+        width: 110px;
+        height: 40px;
+        font-size: 14px;
+        position: absolute;
+        bottom: 95%;
+    }
+
+    .btn2{
+        width: 110px;
+        height: 40px;
+        font-size: 14px;
+        position: absolute;
+        bottom: 95%;
+        left: 10%;
+    }
+    
+}
+@media (max-width: 1024px){
+    .first-page{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .text-page{
+        padding-left: 0.8rem;
+    }
+
+    .buttons{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sub-title h1{
+        font-size: 18px;
+    }
+
+    .main-title h2{
+        font-size: 40px;
+    }
+
+    .description-1{
+        font-size: 14px;
+    }
+
+    .btn1{
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .btn2{
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+        position: absolute;
+    }
+
+    
+}
+@media (max-width: 768px){
+
+    .first-page{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .text-page{
+        padding-left: 0.1rem;
+    }
+
+    .buttons{
+        position: relative;
+        padding-left: 0.1rem;
+    }
+
+    .sub-title h1{
+        font-size: 20px;
+    }
+
+    .main-title h2{
+        font-size: 48px;
+    }
+
+    .description-1{
+        font-size: 16px;
+    }
+
+    .btn1{
+        width: 110px;
+        height: 40px;
+        font-size: 14px;
+        position: absolute;
+        bottom: 95%;
+    }
+
+    .btn2{
+        width: 110px;
+        height: 40px;
+        font-size: 14px;
+        position: absolute;
+        bottom: 95%;
+        left: 10%;
+    }
+    
+}
+@media (max-width: 540px){
+
+    .first-page{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .text-page{
+        padding-left: 0.1rem;
+    }
+
+    .buttons{
+        position: relative;
+        padding-left: 0.1rem;
+    }
+
+    .sub-title h1{
+        font-size: 20px;
+    }
+
+    .main-title h2{
+        font-size: 48px;
+    }
+
+    .description-1{
+        font-size: 16px;
+    }
+
+    .btn1{
+        width: 110px;
+        height: 40px;
+        font-size: 14px;
+        position: absolute;
+        bottom: 95%;
+    }
+
+    .btn2{
+        width: 110px;
+        height: 40px;
+        font-size: 14px;
+        position: absolute;
+        bottom: 95%;
+        left: 10%;
+    }
+    
+}
+@media (max-width: 348px){
+
+    .first-page{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .text-page{
+        padding-left: 0.1rem;
+    }
+
+    .buttons{
+        position: relative;
+        padding-left: 0.1rem;
+    }
+
+    .sub-title h1{
+        font-size: 20px;
+    }
+
+    .main-title h2{
+        font-size: 48px;
+    }
+
+    .description-1{
+        font-size: 16px;
+    }
+
+    .btn1{
+        width: 110px;
+        height: 40px;
+        font-size: 14px;
+        position: absolute;
+        bottom: 95%;
+    }
+
+    .btn2{
+        width: 110px;
+        height: 40px;
+        font-size: 14px;
+        position: absolute;
+        bottom: 95%;
+        left: 10%;
+    }
+    
 }
