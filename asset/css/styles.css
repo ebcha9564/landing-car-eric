@@ -188,6 +188,85 @@
     gap: 0 1.5375rem;
 }
 
+/*third-page starts*/
+.third-page-container{
+    width: 100%;
+    height: 100vh;
+    background-color: #FFF6F6;
+    display: flex;
+}
+
+.third-page-submit-page{
+    background-color: #fff;
+    width: 40%;
+    height: 70%;
+    border: 1px solid transparent;
+    border-style: none;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.third-page-image-page{
+    position: relative;
+}
+
+.image-1{
+    background: url('../images/icons/image5.png') no-repeat;
+    background-size: cover;
+    width: 40%;
+    height: 400px;
+    position: absolute;
+    left: 35%;
+    bottom: 45%;
+}
+
+.image-2{
+    background: url('../images/icons/image9.png') no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+    position: absolute;
+    left: 20%;
+    bottom: 10%;
+}
+
+.title-text h2{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+h2>span{
+    color: #CC5D5E;
+}
+
+.title-text h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+.third-page-submit-page p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.two-inputs{
+    display: flex;
+}
+
+.name-input input, .phone-input input{
+    padding: 1.1rem 1.0rem 1.1rem 0.3rem;
+}
+
+.car-input input{
+    padding: 1.1rem 20.0rem 1.1rem 0.3rem;
+}
+
+.extra input{
+    padding: 5rem 20.0rem 5rem 0.5rem;
+}
+
+.third-page-submit-page p{
+    text-align: left;
+}
 /*Responsive 1280, 1024, 768, 540, 348*/
 @media (max-width: 1280px){
     .first-page{
