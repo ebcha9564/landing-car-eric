@@ -4,12 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>카통령</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <section class="first-page">
-        <div class="bg-black"></div>
+        <div class="bg-black">
+            <header>
+                <div class="logo">
+                    <a href="#">
+                            <img src="images/icons/logo-icon.png" alt="Logo">
+                    </a>
+                </div>
+                <div class="burger-logo">
+                    <a href="#"><i class='bx bx-menu'></i></a>
+                </div>
+                <nav class="nav-bar">
+                    <ul>
+                        <li><a href="#" class="active">최저가 차량</a></li>
+                        <li><a href="#">내차팔기</a></li>
+                        <li><a href="#">팽생 책임 서비스</a></li>
+                        <li><a href="#">오시는길</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
         <div class="text-page">
             <div class="sub-title">
                 <h1 class="m-t-0 top-title wow fadeInDown" data-wow-duration="0.8s" data-wow-delay="0.5s">대한민국 중고차 할인 #1</h1>
@@ -107,10 +127,14 @@
                     </div>
                 </div>
                 <div class="agreement">
-                    <input type="checkbox">
-                    <label for="checkbox1">개인정보 수집 및 제3자 제공 동의 <span>(필수)</span></label>
-                    <input type="checkbox">
-                    <label for="checkbox2">마케팅 정보 동의 (선택)</label>
+                    <div class="checkbox-1">
+                        <input type="checkbox">
+                        <label for="checkbox1">개인정보 수집 및 제3자 제공 동의 <span>(필수)</span></label>
+                    </div>
+                    <div class="checkbox-2">
+                        <input type="checkbox">
+                        <label for="checkbox2">마케팅 정보 동의 (선택)</label>
+                    </div>
                 </div>
                 <div class="btn-submit">
                     <button type="submit" class="btn3">무료 상담 받기</button>
@@ -118,18 +142,26 @@
             </div>
             <div class="third-page-image-page w-50">
                 <div class="image-1">
-
+                    <img src="images/icons/image5.png" alt="">
                 </div>
                 <div class="image-2">
-
+                    <img src="images/icons/image9.png" alt="">
                 </div>
-            </div>
+        </div>
+
         </div>
     </section>
 
     <script src="js/wow.min.js"></script>
     <script>
         new WOW().init();   
+    </script>
+    <script>
+        let burger = document.querySelector(".burger-logo");
+        burger.onclick = function(){{
+            let navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle("active"); 
+        }}
     </script>
 </body>
 </html>
