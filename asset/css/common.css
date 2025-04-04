@@ -22,6 +22,21 @@ body{
     width: 25%;
 }
 
+.w-30{
+    width: 30%;
+}
+
 .w-50{
     width: 50%;
+}
+.w-100{
+    width: 100%;
+}
+
+.bg-cr{
+    background-color: #fff;
+}
+
+.bg-cr2{
+    background-color: #f8f8f8;
 }

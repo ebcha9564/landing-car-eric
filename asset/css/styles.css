@@ -30,7 +30,7 @@ header{
 .nav-bar ul li a{
     display: inline-block;
     color: #fefefe;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     padding: 5px 30px;
     transition: all 1s;
@@ -78,14 +78,14 @@ header{
 
 .sub-title h1{
     color: #F37F81;
-    font-size: 24px;
+    font-size: 22px;
     letter-spacing: 0%;
     font-weight: 600;
 }
 
 .main-title h2{
     color: #FDF9F9;
-    font-size: 56px;
+    font-size: 52px;
     letter-spacing: 0%;
     font-weight: 700;
     padding-bottom: 20px;
@@ -93,7 +93,7 @@ header{
 
 .description-1{
     color: #FDF9F9;
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 1%;
     font-weight: 300;
 }
@@ -119,8 +119,8 @@ header{
 
 .buttons{
     position:absolute;
-    left: 305px;
-    top: 563px;
+    left: 285px;
+    top: 520px;
     display: flex;
 }
 
@@ -137,7 +137,7 @@ header{
     z-index: 100;
     cursor: pointer;
     font-weight: 600;
-    transition: 0.9s;
+    transition: 0.2s;
     opacity: 1;
 }
 
@@ -160,7 +160,7 @@ header{
     z-index: 100;
     cursor: pointer;
     font-weight: 600;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .btn2:hover{
@@ -169,6 +169,9 @@ header{
 }
 
 /*second page start*/
+.second-page{
+    background-color: #F8F8F8;
+}
 .second-page-container{
     width: 1360px;
     margin: 0 auto;
@@ -177,7 +180,7 @@ header{
 
 .second-page-text{
     text-align: center;
-    margin-top: 12.5rem;   
+    padding-top: 12rem; 
 }
 
 .second-page-text-1{
@@ -186,7 +189,7 @@ header{
 }
 
 .second-page-text-1 h3{
-    font-size: 24px;
+    font-size: 28px;
     color: #1F2124;
     font-weight: 700;
 }
@@ -233,6 +236,15 @@ header{
     cursor: pointer;
 }
 
+.second-page-button button:hover{
+    border: 2px solid #000;
+    border-radius: 100px;
+    background: #000;
+    color: #fff;
+    transition: 0.2s;
+    font-weight: 700;
+}
+
 .content-container{
     margin-top: 3.9375rem;
 }
@@ -277,7 +289,7 @@ header{
     border: 1px solid transparent;
     border-radius: 30px;
     position: absolute;
-    left: 10%;
+    left: 14.2%;
     top: 20%;
 }
 
@@ -310,12 +322,13 @@ header{
 
 .name-input input, .phone-input input{
     background: #F1F3F5;
-    border-color: #C9CFD6;
+    border: 1.5px solid #C9CFD6;
     border-radius: 8px;
 }
 
 .car-input p{
     padding-top: 10px;
+    padding-bottom: 5px;
     font-size: 16px;
     color: #1F2124;
     font-weight: 600;
@@ -323,12 +336,18 @@ header{
 
 .car-input input{
     background: #F1F3F5;
-    border-color: #C9CFD6;
+    border: 1.5px solid #C9CFD6;
     border-radius: 8px;
 }
 
+.extra input{
+    background: #F1F3F5;
+    border: 1.5px solid #C9CFD6;
+    border-radius: 8px;
+}
 .extra p{
     padding-top: 10px;
+    padding-bottom: 5px;
     font-size: 16px;
     color: #1F2124;
     font-weight: 600;
@@ -347,12 +366,10 @@ label span{
     color: #CC5D5E;
     font-weight: 600;
 }
-.btn-submit{
-    padding-top: 10px;
-}
+
 .btn-submit button{
     width: 140px;
-    height: 40px;
+    height: 50px;
     background: #FF1014;
     border-color: none;
     color: #fdf9f9;
@@ -362,6 +379,14 @@ label span{
     border-radius: 100px;
     text-align: center;
     cursor: pointer;
+}
+
+.btn-submit button:hover{
+    border: 2px solid #FF1014;
+    border-radius: 100px;
+    background: transparent;
+    color: #FF1014;
+    transition: 0.3s;
 }
 .extra input{
     background: #F1F3F5;
@@ -387,15 +412,15 @@ label span{
 }
 
 .input-name-user, .input-phone-user{
-    padding: 7px 20px 7px 5px;
+    padding: 10px 20px 10px 5px;
 }
 
 .input-text-user{
-    padding: 7px 275px 7px 7px;
+    padding: 10px 275px 10px 7px;
 }
 
 .input-extra-user{
-    padding: 30px 275px 30px 5px;
+    padding: 35px 275px 35px 5px;
 }
 
 .agreement{
@@ -403,13 +428,15 @@ label span{
     flex-direction: column;
     justify-content: center;
     align-items: left;
-    margin-left: 55px;
+    padding-top: 10px;
+    padding-left: 85px;
 }
 
 .btn-submit{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 30px;
 }
 
 .third-page-image-page{
@@ -419,17 +446,117 @@ label span{
 
 .image-1 img{
     position: absolute;
-    right: -100%;
+    right: -60%;
+    top: 170px;
+
 }
 
 .image-2 img{
     position: absolute;
-    top: 80%;
+    width: 90%;
     right: -100%;
-    width: 80%;
+    top: 250px;
+}
+
+.first-check, .second-check{
+    accent-color: #CC5D5E;
+}
+
+/*fourth-page starts*/
+
+.fourth-page{
+    background-color: #f8f8f8;
+}
+.fourth-page-container{
+    width: 1400px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.fourth-page-title{
+    text-align: center;
+    padding-top: 5rem;
+    font-size: 28px;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+.fourth-page-logos button{
+    background: #fff;
+    border: none;
+    outline: none;
+    padding: 1rem 1rem 1rem 1rem;
+    font-weight: 600;
+}
+.fourth-page-logos{
+    padding-bottom: 2rem;
+}
+.fourth-page-title span{
+    color: #CC5D5E;
+}
+
+.first-logo img{
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.fourth-page-logos{
+    display: flex;
+    gap: 0 1rem;
+    justify-content: center;
+}
+
+.first-row-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 3rem;
+}
+
+.second-row-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 3rem;
+}
+
+.first-row-content img, .second-row-content img{
+    width: 310px;
+    height: 160px;
+    padding-left: 60px;
+}
+
+.first-row-content button, .second-row-content button{
+    background: white;
+    border: 2px solid #f8f8f8;
+    outline: none;
+    padding: 0.5rem 9.5rem 0.5rem 9.5rem;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.car-content-1-text .hihihi, .car-content-2-text .hihihi, .car-content-3-text .hihihi, .car-content-4-text .hihihi, .car-content-5-text .hihihi, .car-content-6-text .hihihi{
+    padding-right: 1rem;
+    font-weight: 500;
+}
+
+.car-content-1-text span, .car-content-2-text span, .car-content-3-text span, .car-content-4-text span, .car-content-5-text span .car-content-6-text span{
+    font-weight: 500;
 }
 
 
+.car-content-1-text, .car-content-2-text, .car-content-3-text, .car-content-4-text, .car-content-5-text, .car-content-6-text{
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+.car-content-1, .car-content-2, .car-content-3, .car-content-4, .car-content-5, .car-content-6{
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    height: 330px;
+}
+
+.car-content-4, .car-content-5, .car-content-6{
+    margin-top: 1.5rem;
+}
 /* responsive 1280, 1024, 768, 540, 348*/
 @media (max-width: 1280px){
     .first-page{
@@ -439,6 +566,24 @@ label span{
         height: 100vh;
         background-position: bottom center;
         position: relative;
+    }
+
+    header{
+        padding: 0 100px 0 80px;
+    }
+
+    .logo img{
+        width: 70%;
+        height: 50%;
+    }
+
+    .nav-bar ul li a{
+        font-size: 1rem;
+
+    }
+
+    .nav-bar ul li:last-child{
+        padding-right: 20rem;
     }
 
     .text-page{
@@ -480,14 +625,33 @@ label span{
     }
     
 }
+
 @media (max-width: 1024px){
     .first-page{
+        background: url('../images/icons/background-main.png') no-repeat;
+        background-size: cover;
         width: 100%;
         height: 100vh;
+        background-position: bottom center;
+        position: relative;
+    }
+
+    .burger-logo i{
+        display: none;
+    }
+
+    .logo img{
+        width: 60%;
+        height: 40%;
+    }
+
+    .nav-bar ul li a{
+        font-size: 0.8rem;
+
     }
 
     .text-page{
-        padding-left: 0.8rem;
+        padding-left: -1.5rem;
     }
 
     .buttons{
@@ -513,7 +677,8 @@ label span{
         height: 30px;
         font-size: 12px;
         position: absolute;
-        bottom: 0;
+        bottom: 50px;
+        left: -10px;
     }
 
     .btn2{
@@ -521,6 +686,9 @@ label span{
         height: 30px;
         font-size: 12px;
         position: absolute;
+        bottom: 50px;
+        left: 90px;
+        margin-left: 0.5rem;
     }
 
     .burger-logo{
@@ -528,63 +696,102 @@ label span{
         cursor: pointer;
         font-size: 24px;
     }
-
-
-
-    
 }
+
 @media (max-width: 768px){
 
     .first-page{
+        background: url('../images/icons/background-main.png') no-repeat;
+        background-size: cover;
         width: 100%;
         height: 100vh;
+        background-position: bottom center;
+    }
+
+    .nav-bar ul li a{
+        display: none;
+    }
+
+    .logo img{
+        width: 80%;
+        height: 60%;
+    }
+
+    .burger-logo i{
+        display: block;
+    }
+
+    .burger-logo{
+        font-size: 2.5rem;
+        margin-left: 10rem;
     }
 
     .text-page{
         padding-left: 0.1rem;
+        position: relative;
+        left: -20%;
     }
 
     .buttons{
         position: relative;
         padding-left: 0.1rem;
+        left: 20%;
+        top: 43%;
     }
 
     .sub-title h1{
-        font-size: 20px;
-    }
-
-    .main-title h2{
-        font-size: 48px;
-    }
-
-    .description-1{
         font-size: 16px;
     }
 
+    .main-title h2{
+        font-size: 36px;
+    }
+
+    .description-1{
+        font-size: 12px;
+    }
+
     .btn1{
-        width: 110px;
-        height: 40px;
-        font-size: 14px;
+        width: 70px;
+        height: 30px;
+        font-size: 10px;
         position: absolute;
-        bottom: 95%;
+        left: 0;
     }
 
     .btn2{
-        width: 110px;
-        height: 40px;
-        font-size: 14px;
+        width: 70px;
+        height: 30px;
+        font-size: 10px;
         position: absolute;
-        bottom: 95%;
-        left: 10%;
+        left: 9%;
     }
     
 }
+
 @media (max-width: 540px){
 
     .first-page{
-        width: 100%;
+        background: url('../images/icons/background-main.png') no-repeat;
+        background-size: cover;
+        width: 50%;
         height: 100vh;
+        background-position: top center;
     }
+    header{
+        padding: 0 0 0 20px;
+    }
+
+    .burger-logo{
+        position: relative;
+        right: 15%;
+        top: -20%;
+    }
+
+    .burger-logo i{
+        position: absolute;
+    }
+
 
     .text-page{
         padding-left: 0.1rem;
@@ -596,78 +803,107 @@ label span{
     }
 
     .sub-title h1{
-        font-size: 20px;
-    }
-
-    .main-title h2{
-        font-size: 48px;
-    }
-
-    .description-1{
         font-size: 16px;
     }
 
-    .btn1{
-        width: 110px;
-        height: 40px;
+    .main-title h2{
+        font-size: 30px;
+    }
+
+    .description-1{
         font-size: 14px;
+    }
+
+    .buttons{
+        position: relative;
+        padding-left: 0.1rem;
+        left: 20%;
+        top: 43%;
+    }
+
+
+    .btn1{
+        width: 70px;
+        height: 30px;
+        font-size: 10px;
         position: absolute;
-        bottom: 95%;
+        left: -5%;
     }
 
     .btn2{
-        width: 110px;
-        height: 40px;
-        font-size: 14px;
+        width: 70px;
+        height: 30px;
+        font-size: 10px;
         position: absolute;
-        bottom: 95%;
-        left: 10%;
+        left: 9%;
     }
     
 }
+
 @media (max-width: 348px){
 
     .first-page{
+        background: url('../images/icons/background-main.png') no-repeat;
+        background-size: cover;
         width: 100%;
         height: 100vh;
+        background-position: bottom center;
+    }
+
+    header{
+        padding: 0 0 0 20px;
+    }
+
+    .burger-logo{
+        position: relative;
+        right: 28%;
+        top: -20%;
+    }
+
+    .burger-logo i{
+        position: absolute;
     }
 
     .text-page{
-        padding-left: 0.1rem;
+        position: relative;
+        left: 2.5%;
+    }
+
+
+    .sub-title h1{
+        font-size: 15px;
+    }
+
+    .main-title h2{
+        font-size: 34px;
+    }
+
+    .description-1{
+        font-size: 13px;
     }
 
     .buttons{
         position: relative;
         padding-left: 0.1rem;
-    }
-
-    .sub-title h1{
-        font-size: 20px;
-    }
-
-    .main-title h2{
-        font-size: 48px;
-    }
-
-    .description-1{
-        font-size: 16px;
+        left: 40%;
+        top: 37%;
     }
 
     .btn1{
-        width: 110px;
-        height: 40px;
-        font-size: 14px;
+        width: 60px;
+        height: 30px;
+        font-size: 10px;
         position: absolute;
-        bottom: 95%;
+        bottom: 45%;
     }
 
     .btn2{
-        width: 110px;
-        height: 40px;
-        font-size: 14px;
+        width: 60px;
+        height: 30px;
+        font-size: 10px;
         position: absolute;
         bottom: 95%;
-        left: 10%;
+        left: 11%;
     }
     
 }
