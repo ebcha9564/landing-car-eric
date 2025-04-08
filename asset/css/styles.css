@@ -170,7 +170,7 @@ header{
 
 /*second page start*/
 .second-page{
-    background-color: #F8F8F8;
+    background-color: #fff;
 }
 .second-page-container{
     width: 1360px;
@@ -466,7 +466,7 @@ label span{
 /*fourth-page starts*/
 
 .fourth-page{
-    background-color: #f8f8f8;
+    background-color: #fff;
 }
 .fourth-page-container{
     width: 1400px;
@@ -536,7 +536,7 @@ label span{
 
 .first-row-content button, .second-row-content button{
     background: #fff;
-    border: 1px solid rgba(206, 104, 104, 0.6);
+    border: 0.1px solid #000;
     outline: none;
     padding: 0.5rem 9.5rem 0.5rem 9.5rem;
     font-size: 14px;
@@ -567,10 +567,39 @@ label span{
 .car-content-1, .car-content-2, .car-content-3, .car-content-4, .car-content-5, .car-content-6{
     padding: 1.5rem 1.5rem 1.5rem 1.5rem;
     height: 330px;
+    border: 0.5px solid #000;
 }
 
 .car-content-4, .car-content-5, .car-content-6{
     margin-top: 1.5rem;
+}
+
+/*fifth-section-starts*/
+.fifth-page-container{
+    width: 1400px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.fifth-page-title{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: left;
+}
+
+.fifth-page-contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 1rem;
+}
+
+.name-icon-review{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    gap: 0 1rem;
 }
 /* responsive 1280, 1024, 768, 540, 348*/
 @media (max-width: 1280px){
