@@ -11,16 +11,21 @@
     position: relative;
 }
 
+.logo h2{
+    color: #fff;
+}
+
 header{
     position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 100px;
+    height: 80px;
     background-color: none;
     padding: 0 190px 0 270px;
     z-index: 9999999;
+    background-color: #11101b;
 }
 
 .nav-bar ul{
@@ -314,20 +319,26 @@ header{
     padding-bottom: 36px;
 }
 
-.name-input p, .phone-input p{
+.name-input label, .phone-input label{
     padding-bottom: 5px;
     font-size: 16px;
     color: #1F2124;
     font-weight: 600;
 }
 
+.extra label{
+    padding-bottom: 5px;
+    font-size: 16px;
+    color: #1F2124;
+    font-weight: 600;  
+}
 .name-input input, .phone-input input{
     background: #F1F3F5;
     border: 1.5px solid #C9CFD6;
     border-radius: 8px;
 }
 
-.car-input p{
+.car-input label{
     padding-top: 10px;
     padding-bottom: 5px;
     font-size: 16px;
@@ -410,6 +421,11 @@ label span{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 1rem;
+}
+
+.extra{
+    padding-top: 1rem;
 }
 
 .input-name-user, .input-phone-user{
@@ -462,6 +478,15 @@ label span{
 .first-check, .second-check{
     accent-color: #CC5D5E;
 }
+.checkbox-1 p{
+    padding-top: 0.8rem;
+    padding-left: 0.3rem;
+}
+
+.checkbox-2{
+    padding-left: 0.3rem;
+}
+
 
 /*fourth-page starts*/
 
@@ -567,14 +592,91 @@ label span{
 .car-content-1, .car-content-2, .car-content-3, .car-content-4, .car-content-5, .car-content-6{
     padding: 1.5rem 1.5rem 1.5rem 1.5rem;
     height: 330px;
-    border: 0.5px solid #000;
 }
 
 .car-content-4, .car-content-5, .car-content-6{
     margin-top: 1.5rem;
 }
 
+.second-row-content{
+    padding-bottom: 50rem;
+}
+/*
+페르소나, 기획서, 워크플로우, 메인페이지 와이어프레임 2주 
+*/
+/* qna-page-starts*/
+
+.qna-page{
+    background-color: #FFF6F6;
+}
+.qna-page-container{
+    margin: 0 auto;
+    width: 1460px;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 3%;
+}
+
+.qna-name{
+    flex: 0.5%;
+    padding: 2rem 0 0 0;
+}
+
+.qna-name h2{
+    line-height: 140%;
+    cursor: pointer;
+    font-weight: 700;
+    padding-bottom: 5rem;
+}
+.faq h2{
+    font-weight: 500;
+}
+
+.qna-name img{
+    width: 90%;
+}
+
+.qna-header{
+    padding: 5% 0 0 0;
+    font-size: 40px;
+    color: #141212;
+    letter-spacing: 2%;
+    line-height: 140%;
+}
+
+.qna-header span{
+    color: #CC5D5E;
+}
+
+.faq-title{
+    padding-top: 3rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #ccc;
+}
+
+.faq-body{
+    display: none;
+}
+
+.qna-box{
+    padding-top: 9rem;
+}
+
+.faq-body .first-p{
+    padding-top: 2rem;
+    font-size: 20px;
+}
+
+.faq-body p{
+    font-size: 20px;
+}
 /*fifth-section-starts*/
+.fifth-page{
+    position: relative;
+}
+
 .fifth-page-container{
     width: 1400px;
     height: 100vh;
@@ -586,6 +688,7 @@ label span{
     flex-direction: column;
     text-align: left;
     align-items: left;
+    padding-top: 10rem;
 }
 
 .fifth-page-contents{
@@ -595,11 +698,78 @@ label span{
     gap: 0 1rem;
 }
 
+.sub-contents-img{
+    width: 100%;
+}
+
+.fifth-page .swiper-wrapper{
+    height: inherit;
+}
+
+.fifth-page .swiper-pagination{
+    bottom:3%;
+}
+
 .name-icon-review{
     display: flex;
     justify-content: left;
     align-items: left;
     gap: 0 1rem;
+}
+
+.fifth-page-title h2{
+    font-size: 32px;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+.fifth-page-title span{
+    color: #CC5D5E;
+}
+
+.fifth-page-title p{
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 1.5rem;
+}
+
+.fifth-page-sub-contents .car-name{
+    padding-top: 1rem;
+    font-size: 24px;
+    padding-bottom: .5rem;
+}
+
+.car-review p{
+    padding-bottom: 1rem;
+}
+
+.name-person, .star-review, .number-review{
+    padding-top: 1.2rem;
+}
+
+.name-person{
+    padding-right: 8rem;
+    font-size: 18px;
+}
+.star-review, .number-review{
+    font-size: 18px;
+}
+
+.image-person img{
+    height: 70px;
+    width: 70px;
+}
+
+.star-review i{
+    background-color: yellow;
+}
+
+.number-review span{
+    color: #D9D9D9;
+}
+
+.car-name span{
+    color: #000;
+    font-weight: 500;
 }
 /* responsive 1280, 1024, 768, 540, 348*/
 @media (max-width: 1280px){
@@ -826,6 +996,8 @@ label span{
         padding: 0 0 0 20px;
     }
 
+    .burger-logo
+
     .burger-logo{
         position: relative;
         right: 15%;
@@ -881,6 +1053,162 @@ label span{
         position: absolute;
         left: 9%;
     }
+    
+}
+
+@media only screen and (max-width: 480px){
+
+    header {
+        height: 60px;
+    }
+
+    .first-page {
+        background: url('../images/icons/background-main.png') no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        background-position: bottom right;
+        position: relative;
+        overflow-x: hidden; /* Prevent horizontal scroll */
+    }
+
+    .burger-logo {
+        position: relative;
+        left: 16rem;
+        top: -1rem;
+        margin-left: auto;
+    }
+
+    .first-page-container {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .text-page {
+        padding: 0 2rem;
+        margin-left: 12.5rem;
+    }
+
+    .buttons {
+        position: relative;
+        left: 12rem;
+        top: 23rem;
+        padding: 0 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .second-page-container{
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .second-page-title, .second-page-subtitle{
+        font-size: 3rem;
+    }
+
+    .content-container .box{
+        width: 140%;
+    }
+
+    .second-page-icon{
+        margin-right: 4.5rem;
+    }
+
+    .second-page-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FCE7E7;
+        border: 1px solid #FCE7E7;
+        width: 103px;
+        height: 103px;
+        margin-inline: 9.8rem;
+        margin-top: 1.5rem;
+        border-style: none;
+        border-radius: 100px;
+    }
+
+    .d-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box{
+        margin-top: 1rem;
+    }
+
+    /* third-page-container */
+
+    .third-page-container{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .third-page-submit-page{
+        width: 70%;
+        height: 650px;
+        padding-bottom: 20rem;
+        position: relative;
+        top: 3rem;
+        left: 4.5rem;
+    }
+
+    .third-page h2{
+        font-size: 20px;
+    }
+
+    .third-page h3{
+        font-size: 16px;
+    }
+
+    .third-page-image-page img{
+        display: none;
+    }
+
+    form #user-car, form #user-input{
+        width: 284px;
+    }
+
+    form #user-name, form #user-phone{
+        width: 135px;
+    }
+
+    .name-input input, .phone-input input{
+        font-size: 10px;
+    }
+
+    .extra input{
+        font-size: 20px;
+    }
+
+    .btn-submit button{
+        width: 100px;
+        height: 35px;
+        font-size: 12px;
+        position: absolute;
+        bottom: 7%;
+    }
+
+
+    .fourth-page-container{
+        width: 300px;
+    }
+
+    .qna-page-container{
+        width: 300px;
+    }
+
+
+    .fifth-page-container{
+        width: 300px;
+    }
+
+    
     
 }
 

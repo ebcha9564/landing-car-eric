@@ -10,8 +10,7 @@
     scroll-behavior: smooth;
 }
 body{
-    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard Variable", Pretendard, Roboto, "Noto Sans KR", "Segoe UI", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
-    font-size: 16px;
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 }
 
 .d-flex{
@@ -34,9 +33,9 @@ body{
 }
 
 .bg-cr{
-    background-color: #fff;
+    background-color: #E5E3E3;
 }
 
 .bg-cr2{
-    background-color: #E5E3E3;
+    background-color: #fff;
 }
