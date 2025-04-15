@@ -2,7 +2,7 @@
 @import url('normalize.css');
 @import url('common.css');
 
-.first-page{
+.first-page {
     background: url('../images/icons/background-main.png') no-repeat;
     background-size: cover;
     width: 100%;
@@ -11,11 +11,11 @@
     position: relative;
 }
 
-.logo h2{
+.logo h2 {
     color: #fff;
 }
 
-header{
+header {
     position: fixed;
     display: flex;
     justify-content: space-between;
@@ -28,11 +28,11 @@ header{
     background-color: #11101b;
 }
 
-.nav-bar ul{
+.nav-bar ul {
     display: flex;
 }
 
-.nav-bar ul li a{
+.nav-bar ul li a {
     display: inline-block;
     color: #fefefe;
     font-size: 18px;
@@ -50,45 +50,45 @@ header{
     left: 0;
     width: 0;
     height: 4px;
-    background: linear-gradient(90deg, #C02526, #211715); 
+    background: linear-gradient(90deg, #C02526, #211715);
     border-radius: 0;
     transition: all 0.5s ease-in-out;
 }
-  
+
 .nav-bar ul li a:hover::before {
     width: 100%;
     border-radius: 50%;
 }
 
 
-.nav-bar ul li a:active{
-    color:#11101b;
+.nav-bar ul li a:active {
+    color: #11101b;
     background: #fefefe;
     border-radius: 5px;
 }
 
-.burger-logo{
+.burger-logo {
     display: none;
 }
 
 
 
-.bg-black{
+.bg-black {
     width: 100%;
     height: 100vh;
     position: absolute;
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.34) 49%, rgba(56,56,56,0) 100%);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.34) 49%, rgba(56, 56, 56, 0) 100%);
 
 }
 
-.sub-title h1{
+.sub-title h1 {
     color: #F37F81;
     font-size: 22px;
     letter-spacing: 0%;
     font-weight: 600;
 }
 
-.main-title h2{
+.main-title h2 {
     color: #FDF9F9;
     font-size: 52px;
     letter-spacing: 0%;
@@ -96,24 +96,24 @@ header{
     padding-bottom: 20px;
 }
 
-.description-1{
+.description-1 {
     color: #FDF9F9;
     font-size: 18px;
     letter-spacing: 1%;
     font-weight: 300;
 }
 
-.m-t-0{
+.m-t-0 {
     margin-top: 0;
 }
 
-.title-point{
+.title-point {
     color: #FF1014;
     padding: 0 10px;
     z-index: 2;
 }
 
-.text-page{
+.text-page {
     position: absolute;
     z-index: 999;
     margin-top: 0;
@@ -122,14 +122,14 @@ header{
     text-align: center;
 }
 
-.buttons{
-    position:absolute;
+.buttons {
+    position: absolute;
     left: 285px;
     top: 520px;
     display: flex;
 }
 
-.btn1{
+.btn1 {
     width: 140px;
     height: 45px;
     background: #FF1014;
@@ -146,14 +146,14 @@ header{
     opacity: 1;
 }
 
-.btn1:hover{
+.btn1:hover {
     border: 2px solid #FF1014;
     border-radius: 100px;
     background: transparent;
     color: #fdf9f9;
 }
 
-.btn2{
+.btn2 {
     width: 140px;
     height: 45px;
     background: none;
@@ -168,38 +168,39 @@ header{
     transition: 0.2s;
 }
 
-.btn2:hover{
+.btn2:hover {
     background: #fefefe;
     color: #1F2124;
 }
 
 /*second page start*/
-.second-page{
+.second-page {
     background-color: #fff;
 }
-.second-page-container{
+
+.second-page-container {
     width: 1360px;
     margin: 0 auto;
     padding-bottom: 8.125rem;
 }
 
-.second-page-text{
+.second-page-text {
     text-align: center;
-    padding-top: 12rem; 
+    padding-top: 12rem;
 }
 
-.second-page-text-1{
+.second-page-text-1 {
     text-align: center;
     margin-top: 2.5625rem;
 }
 
-.second-page-text-1 h3{
+.second-page-text-1 h3 {
     font-size: 28px;
     color: #1F2124;
     font-weight: 700;
 }
 
-.second-page-text-1 p{
+.second-page-text-1 p {
     font-size: 20px;
     color: #1F2124;
     text-align: center;
@@ -208,32 +209,33 @@ header{
     padding-left: 60px;
     padding-right: 60px;
 }
-.second-page-text .second-page-title{
+
+.second-page-text .second-page-title {
     color: #CC5D5E;
     font-size: 24px;
     font-weight: 600;
 }
 
-.second-page-text .second-page-subtitle{
+.second-page-text .second-page-subtitle {
     color: #000;
     font-size: 32px;
     margin-top: 24px;
     font-weight: 600;
 }
 
-.second-page-subtitle span{
+.second-page-subtitle span {
     color: #F33333;
 }
 
 
-.second-page-button{
+.second-page-button {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 3.9375rem;
 }
 
-.second-page-button button{
+.second-page-button button {
     background: none;
     border: 1px solid #000;
     border-radius: 10rem;
@@ -241,7 +243,7 @@ header{
     cursor: pointer;
 }
 
-.second-page-button button:hover{
+.second-page-button button:hover {
     border: 2px solid #000;
     border-radius: 100px;
     background: #000;
@@ -250,11 +252,11 @@ header{
     font-weight: 700;
 }
 
-.content-container{
+.content-container {
     margin-top: 3.9375rem;
 }
 
-.second-page-icon{
+.second-page-icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -268,27 +270,27 @@ header{
     border-radius: 100px;
 }
 
-.box{
+.box {
     border: 1px solid rgba(206, 104, 104, 0.6);
     border-radius: 40px;
     height: 403px;
     background-color: #fff;
 }
 
-.second-page .d-flex{
+.second-page .d-flex {
     gap: 0 1.5375rem;
 }
 
 /*third-page starts*/
 
-.third-page-container{
+.third-page-container {
     background: #FFF6F6;
     width: 100%;
     height: 100vh;
     position: relative;
 }
 
-.third-page-submit-page{
+.third-page-submit-page {
     width: 35%;
     height: 65vh;
     background: #fff;
@@ -299,46 +301,50 @@ header{
     top: 20%;
 }
 
-.title-text h2, .title-text h3{
+.title-text h2,
+.title-text h3 {
     text-align: center;
 }
 
-.title-text{
+.title-text {
     padding-top: 50px;
 }
 
-.title-text h2{
+.title-text h2 {
     padding-bottom: 5px;
     font-size: 32px;
     font-weight: 600;
 }
 
-.title-text h3{
+.title-text h3 {
     font-size: 20px;
     font-weight: 500;
     padding-bottom: 36px;
 }
 
-.name-input label, .phone-input label{
+.name-input label,
+.phone-input label {
     padding-bottom: 5px;
     font-size: 16px;
     color: #1F2124;
     font-weight: 600;
 }
 
-.extra label{
+.extra label {
     padding-bottom: 5px;
     font-size: 16px;
     color: #1F2124;
-    font-weight: 600;  
+    font-weight: 600;
 }
-.name-input input, .phone-input input{
+
+.name-input input,
+.phone-input input {
     background: #F1F3F5;
     border: 1.5px solid #C9CFD6;
     border-radius: 8px;
 }
 
-.car-input label{
+.car-input label {
     padding-top: 10px;
     padding-bottom: 5px;
     font-size: 16px;
@@ -346,18 +352,19 @@ header{
     font-weight: 600;
 }
 
-.car-input input{
+.car-input input {
     background: #F1F3F5;
     border: 1.5px solid #C9CFD6;
     border-radius: 8px;
 }
 
-.extra input{
+.extra input {
     background: #F1F3F5;
     border: 1.5px solid #C9CFD6;
     border-radius: 8px;
 }
-.extra p{
+
+.extra p {
     padding-top: 10px;
     padding-bottom: 5px;
     font-size: 16px;
@@ -365,21 +372,21 @@ header{
     font-weight: 600;
 }
 
-.agreement{
+.agreement {
     padding-top: 10px;
 }
 
-.agreement label{
+.agreement label {
     font-size: 14px;
     padding-top: 50px;
 }
 
-label span{
+label span {
     color: #CC5D5E;
     font-weight: 600;
 }
 
-.btn-submit button{
+.btn-submit button {
     width: 140px;
     height: 50px;
     background: #FF1014;
@@ -393,30 +400,32 @@ label span{
     cursor: pointer;
 }
 
-.btn-submit button:hover{
+.btn-submit button:hover {
     border: 2px solid #FF1014;
     border-radius: 100px;
     background: transparent;
     color: #FF1014;
     transition: 0.3s;
 }
-.extra input{
+
+.extra input {
     background: #F1F3F5;
     border-color: #C9CFD6;
     border-radius: 8px;
 }
 
-.title-text span{
+.title-text span {
     color: #CC5D5E;
 }
-.two-inputs{
+
+.two-inputs {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 0 1rem;
 }
 
-.two-inputss{
+.two-inputss {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -424,23 +433,24 @@ label span{
     padding-top: 1rem;
 }
 
-.extra{
+.extra {
     padding-top: 1rem;
 }
 
-.input-name-user, .input-phone-user{
+.input-name-user,
+.input-phone-user {
     padding: 10px 20px 10px 5px;
 }
 
-.input-text-user{
+.input-text-user {
     padding: 10px 275px 10px 7px;
 }
 
-.input-extra-user{
+.input-extra-user {
     padding: 35px 275px 35px 5px;
 }
 
-.agreement{
+.agreement {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -449,96 +459,102 @@ label span{
     padding-left: 85px;
 }
 
-.btn-submit{
+.btn-submit {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 30px;
 }
 
-.third-page-image-page{
+.third-page-image-page {
     display: flex;
     position: relative;
 }
 
-.image-1 img{
+.image-1 img {
     position: absolute;
     right: -60%;
     top: 170px;
 
 }
 
-.image-2 img{
+.image-2 img {
     position: absolute;
     width: 90%;
     right: -100%;
     top: 250px;
 }
 
-.first-check, .second-check{
+.first-check,
+.second-check {
     accent-color: #CC5D5E;
 }
-.checkbox-1 p{
+
+.checkbox-1 p {
     padding-top: 0.8rem;
     padding-left: 0.3rem;
 }
 
-.checkbox-2{
+.checkbox-2 {
     padding-left: 0.3rem;
 }
 
 
 /*fourth-page starts*/
 
-.fourth-page{
+.fourth-page {
     background-color: #fff;
 }
-.fourth-page-container{
+
+.fourth-page-container {
     width: 1400px;
     height: 100vh;
     margin: 0 auto;
 }
 
-.fourth-page-title{
+.fourth-page-title {
     text-align: center;
     padding-top: 5rem;
     font-size: 28px;
     font-weight: 600;
     padding-bottom: 1rem;
 }
-.fourth-page-logos button{
+
+.fourth-page-logos button {
     background: #fff;
     border: none;
     outline: none;
     padding: 1rem 1rem 1rem 1rem;
     font-weight: 600;
 }
-.fourth-page-logos{
+
+.fourth-page-logos {
     padding-bottom: 2rem;
 }
-.fourth-page-title span{
+
+.fourth-page-title span {
     color: #CC5D5E;
 }
 
-.first-logo img{
+.first-logo img {
     display: inline-block;
     padding-top: 20px;
 }
 
-.fourth-page-logos{
+.fourth-page-logos {
     display: flex;
     gap: 0 1rem;
     justify-content: center;
 }
 
-.fourth-page-logos button{
+.fourth-page-logos button {
     border: 1px solid rgba(206, 104, 104, 0.6);
     border-radius: 20px;
     color: #202231;
     cursor: pointer;
 }
 
-.first-row-content{
+.first-row-content {
     display: flex;
     justify-content: center;
     color: #fff;
@@ -546,20 +562,22 @@ label span{
     gap: 0 3rem;
 }
 
-.second-row-content{
+.second-row-content {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 0 3rem;
 }
 
-.first-row-content img, .second-row-content img{
+.first-row-content img,
+.second-row-content img {
     width: 310px;
     height: 160px;
     padding-left: 60px;
 }
 
-.first-row-content button, .second-row-content button{
+.first-row-content button,
+.second-row-content button {
     background: #fff;
     border: 0.1px solid #000;
     outline: none;
@@ -569,47 +587,72 @@ label span{
     cursor: pointer;
 }
 
-.car-content-1-text .hihihi, .car-content-2-text .hihihi, .car-content-3-text .hihihi, .car-content-4-text .hihihi, .car-content-5-text .hihihi, .car-content-6-text .hihihi{
+.car-content-1-text .hihihi,
+.car-content-2-text .hihihi,
+.car-content-3-text .hihihi,
+.car-content-4-text .hihihi,
+.car-content-5-text .hihihi,
+.car-content-6-text .hihihi {
     padding-right: 1rem;
     font-weight: 400;
 }
 
-.first-row-content h2, .second-row-content h2{
+.first-row-content h2,
+.second-row-content h2 {
     padding-bottom: 0.5rem;
     color: #202231;
-} 
+}
 
-.car-content-1-text span, .car-content-2-text span, .car-content-3-text span, .car-content-4-text span, .car-content-5-text span .car-content-6-text span{
+.car-content-1-text span,
+.car-content-2-text span,
+.car-content-3-text span,
+.car-content-4-text span,
+.car-content-5-text span .car-content-6-text span {
     font-weight: 400;
     color: #202231;
 }
 
 
-.car-content-1-text, .car-content-2-text, .car-content-3-text, .car-content-4-text, .car-content-5-text, .car-content-6-text{
+.car-content-1-text,
+.car-content-2-text,
+.car-content-3-text,
+.car-content-4-text,
+.car-content-5-text,
+.car-content-6-text {
     padding-top: 1.5rem;
     padding-bottom: 0.5rem;
 }
-.car-content-1, .car-content-2, .car-content-3, .car-content-4, .car-content-5, .car-content-6{
+
+.car-content-1,
+.car-content-2,
+.car-content-3,
+.car-content-4,
+.car-content-5,
+.car-content-6 {
     padding: 1.5rem 1.5rem 1.5rem 1.5rem;
     height: 330px;
 }
 
-.car-content-4, .car-content-5, .car-content-6{
+.car-content-4,
+.car-content-5,
+.car-content-6 {
     margin-top: 1.5rem;
 }
 
-.second-row-content{
+.second-row-content {
     padding-bottom: 50rem;
 }
+
 /*
 페르소나, 기획서, 워크플로우, 메인페이지 와이어프레임 2주 
 */
 /* qna-page-starts*/
 
-.qna-page{
+.qna-page {
     background-color: #FFF6F6;
 }
-.qna-page-container{
+
+.qna-page-container {
     margin: 0 auto;
     width: 1460px;
     height: 100vh;
@@ -619,26 +662,27 @@ label span{
     padding: 3%;
 }
 
-.qna-name{
+.qna-name {
     flex: 0.5%;
     padding: 2rem 0 0 0;
 }
 
-.qna-name h2{
+.qna-name h2 {
     line-height: 140%;
     cursor: pointer;
     font-weight: 700;
     padding-bottom: 5rem;
 }
-.faq h2{
+
+.faq h2 {
     font-weight: 500;
 }
 
-.qna-name img{
+.qna-name img {
     width: 90%;
 }
 
-.qna-header{
+.qna-header {
     padding: 5% 0 0 0;
     font-size: 40px;
     color: #141212;
@@ -646,44 +690,45 @@ label span{
     line-height: 140%;
 }
 
-.qna-header span{
+.qna-header span {
     color: #CC5D5E;
 }
 
-.faq-title{
+.faq-title {
     padding-top: 3rem;
     padding-bottom: 0.5rem;
     border-bottom: 2px solid #ccc;
 }
 
-.faq-body{
+.faq-body {
     display: none;
 }
 
-.qna-box{
+.qna-box {
     padding-top: 9rem;
 }
 
-.faq-body .first-p{
+.faq-body .first-p {
     padding-top: 2rem;
     font-size: 20px;
 }
 
-.faq-body p{
+.faq-body p {
     font-size: 20px;
 }
+
 /*fifth-section-starts*/
-.fifth-page{
+.fifth-page {
     position: relative;
 }
 
-.fifth-page-container{
+.fifth-page-container {
     width: 1400px;
     height: 100vh;
     margin: 0 auto;
 }
 
-.fifth-page-title{
+.fifth-page-title {
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -691,372 +736,94 @@ label span{
     padding-top: 10rem;
 }
 
-.fifth-page-contents{
+.fifth-page-contents {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 0 1rem;
 }
 
-.sub-contents-img{
+.sub-contents-img {
     width: 100%;
 }
 
-.fifth-page .swiper-wrapper{
+.fifth-page .swiper-wrapper {
     height: inherit;
 }
 
-.fifth-page .swiper-pagination{
-    bottom:3%;
+.fifth-page .swiper-pagination {
+    bottom: 3%;
 }
 
-.name-icon-review{
+.name-icon-review {
     display: flex;
     justify-content: left;
     align-items: left;
     gap: 0 1rem;
 }
 
-.fifth-page-title h2{
+.fifth-page-title h2 {
     font-size: 32px;
     font-weight: 600;
     padding-bottom: 1rem;
 }
-.fifth-page-title span{
+
+.fifth-page-title span {
     color: #CC5D5E;
 }
 
-.fifth-page-title p{
+.fifth-page-title p {
     font-size: 20px;
     font-weight: 400;
     padding-bottom: 1.5rem;
 }
 
-.fifth-page-sub-contents .car-name{
+.fifth-page-sub-contents .car-name {
     padding-top: 1rem;
     font-size: 24px;
     padding-bottom: .5rem;
 }
 
-.car-review p{
+.car-review p {
     padding-bottom: 1rem;
 }
 
-.name-person, .star-review, .number-review{
+.name-person,
+.star-review,
+.number-review {
     padding-top: 1.2rem;
 }
 
-.name-person{
+.name-person {
     padding-right: 8rem;
     font-size: 18px;
 }
-.star-review, .number-review{
+
+.star-review,
+.number-review {
     font-size: 18px;
 }
 
-.image-person img{
+.image-person img {
     height: 70px;
     width: 70px;
 }
 
-.star-review i{
+.star-review i {
     background-color: yellow;
 }
 
-.number-review span{
+.number-review span {
     color: #D9D9D9;
 }
 
-.car-name span{
+.car-name span {
     color: #000;
     font-weight: 500;
 }
+
 /* responsive 1280, 1024, 768, 540, 348*/
-@media (max-width: 1280px){
-    .first-page{
-        background: url('../images/icons/background-main.png') no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 100vh;
-        background-position: bottom center;
-        position: relative;
-    }
-
-    header{
-        padding: 0 100px 0 80px;
-    }
-
-    .logo img{
-        width: 70%;
-        height: 50%;
-    }
-
-    .nav-bar ul li a{
-        font-size: 1rem;
-
-    }
-
-    .nav-bar ul li:last-child{
-        padding-right: 20rem;
-    }
-
-    .text-page{
-        padding-left: 0.1rem;
-    }
-
-    .buttons{
-        position: relative;
-        padding-left: 0.1rem;
-    }
-
-    .sub-title h1{
-        font-size: 20px;
-    }
-
-    .main-title h2{
-        font-size: 48px;
-    }
-
-    .description-1{
-        font-size: 16px;
-    }
-
-    .btn1{
-        width: 110px;
-        height: 40px;
-        font-size: 14px;
-        position: absolute;
-        bottom: 95%;
-    }
-
-    .btn2{
-        width: 110px;
-        height: 40px;
-        font-size: 14px;
-        position: absolute;
-        bottom: 95%;
-        left: 10%;
-    }
-    
-}
-
-@media (max-width: 1024px){
-    .first-page{
-        background: url('../images/icons/background-main.png') no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 100vh;
-        background-position: bottom center;
-        position: relative;
-    }
-
-    .burger-logo i{
-        display: none;
-    }
-
-    .logo img{
-        width: 60%;
-        height: 40%;
-    }
-
-    .nav-bar ul li a{
-        font-size: 0.8rem;
-
-    }
-
-    .text-page{
-        padding-left: -1.5rem;
-    }
-
-    .buttons{
-        position: relative;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .sub-title h1{
-        font-size: 18px;
-    }
-
-    .main-title h2{
-        font-size: 40px;
-    }
-
-    .description-1{
-        font-size: 14px;
-    }
-
-    .btn1{
-        width: 100px;
-        height: 30px;
-        font-size: 12px;
-        position: absolute;
-        bottom: 50px;
-        left: -10px;
-    }
-
-    .btn2{
-        width: 100px;
-        height: 30px;
-        font-size: 12px;
-        position: absolute;
-        bottom: 50px;
-        left: 90px;
-        margin-left: 0.5rem;
-    }
-
-    .burger-logo{
-        display: block;
-        cursor: pointer;
-        font-size: 24px;
-    }
-}
-
-@media (max-width: 768px){
-
-    .first-page{
-        background: url('../images/icons/background-main.png') no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 100vh;
-        background-position: bottom center;
-    }
-
-    .nav-bar ul li a{
-        display: none;
-    }
-
-    .logo img{
-        width: 80%;
-        height: 60%;
-    }
-
-    .burger-logo i{
-        display: block;
-    }
-
-    .burger-logo{
-        font-size: 2.5rem;
-        margin-left: 10rem;
-    }
-
-    .text-page{
-        padding-left: 0.1rem;
-        position: relative;
-        left: -20%;
-    }
-
-    .buttons{
-        position: relative;
-        padding-left: 0.1rem;
-        left: 20%;
-        top: 43%;
-    }
-
-    .sub-title h1{
-        font-size: 16px;
-    }
-
-    .main-title h2{
-        font-size: 36px;
-    }
-
-    .description-1{
-        font-size: 12px;
-    }
-
-    .btn1{
-        width: 70px;
-        height: 30px;
-        font-size: 10px;
-        position: absolute;
-        left: 0;
-    }
-
-    .btn2{
-        width: 70px;
-        height: 30px;
-        font-size: 10px;
-        position: absolute;
-        left: 9%;
-    }
-    
-}
-
-@media (max-width: 540px){
-
-    .first-page{
-        background: url('../images/icons/background-main.png') no-repeat;
-        background-size: cover;
-        width: 50%;
-        height: 100vh;
-        background-position: top center;
-    }
-    header{
-        padding: 0 0 0 20px;
-    }
-
-    .burger-logo
-
-    .burger-logo{
-        position: relative;
-        right: 15%;
-        top: -20%;
-    }
-
-    .burger-logo i{
-        position: absolute;
-    }
-
-
-    .text-page{
-        padding-left: 0.1rem;
-    }
-
-    .buttons{
-        position: relative;
-        padding-left: 0.1rem;
-    }
-
-    .sub-title h1{
-        font-size: 16px;
-    }
-
-    .main-title h2{
-        font-size: 30px;
-    }
-
-    .description-1{
-        font-size: 14px;
-    }
-
-    .buttons{
-        position: relative;
-        padding-left: 0.1rem;
-        left: 20%;
-        top: 43%;
-    }
-
-
-    .btn1{
-        width: 70px;
-        height: 30px;
-        font-size: 10px;
-        position: absolute;
-        left: -5%;
-    }
-
-    .btn2{
-        width: 70px;
-        height: 30px;
-        font-size: 10px;
-        position: absolute;
-        left: 9%;
-    }
-    
-}
-
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 1280px) {
 
     header {
         height: 60px;
@@ -1069,51 +836,52 @@ label span{
         height: 100vh;
         background-position: bottom right;
         position: relative;
-        overflow-x: hidden; /* Prevent horizontal scroll */
+        overflow-x: hidden;
+        /* Prevent horizontal scroll */
     }
 
     .burger-logo {
         position: relative;
         left: 16rem;
-        top: -1rem;
+        top: -1.2rem;
         margin-left: auto;
+        color: #fff;
     }
 
     .first-page-container {
         width: 100%;
-        max-width: 300px;
+        max-width: 1100px;
         margin: 0 auto;
     }
 
     .text-page {
         padding: 0 2rem;
-        margin-left: 12.5rem;
+        margin-left: -5rem;
+        margin-top: -2rem;
     }
 
     .buttons {
         position: relative;
-        left: 12rem;
-        top: 23rem;
+        left: 14rem;
+        top: 30rem;
         padding: 0 1rem;
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
     }
 
-    .second-page-container{
-        width: 300px;
+    .second-page-container {
+        width: 1100px;
         margin: 0 auto;
     }
 
-    .second-page-title, .second-page-subtitle{
-        font-size: 3rem;
+    .second-page-text h3,
+    .second-page-subtitle h3 {
+        font-size: 10rem;
     }
 
-    .content-container .box{
-        width: 140%;
+    .content-container .box {
+        width: 40%;
     }
 
-    .second-page-icon{
+    .second-page-icon {
         margin-right: 4.5rem;
     }
 
@@ -1125,96 +893,309 @@ label span{
         border: 1px solid #FCE7E7;
         width: 103px;
         height: 103px;
-        margin-inline: 9.8rem;
+        margin-inline: 10.5rem;
         margin-top: 1.5rem;
         border-style: none;
         border-radius: 100px;
     }
 
-    .d-flex{
+    .d-flex {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
     }
 
-    .box{
+    .box {
         margin-top: 1rem;
     }
 
     /* third-page-container */
-
-    .third-page-container{
+    .third-page {
         width: 100%;
-        margin: 0 auto;
     }
 
-    .third-page-submit-page{
-        width: 70%;
-        height: 650px;
+    .third-page-container {
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 6rem;
+    }
+
+    .third-page h2 {
+        font-size: 3rem;
+    }
+
+    .third-page-submit-page {
+        width: 80%;
+        height: 600px;
         padding-bottom: 20rem;
         position: relative;
         top: 3rem;
         left: 4.5rem;
     }
 
-    .third-page h2{
-        font-size: 20px;
-    }
-
-    .third-page h3{
-        font-size: 16px;
-    }
-
-    .third-page-image-page img{
+    .third-page-image-page img {
         display: none;
     }
 
-    form #user-car, form #user-input{
-        width: 284px;
+    form #user-car,
+    form #user-input {
+        width: 800px;
     }
 
-    form #user-name, form #user-phone{
-        width: 135px;
+    form #user-name,
+    form #user-phone {
+        width: 390px;
     }
 
-    .name-input input, .phone-input input{
-        font-size: 10px;
+    .name-input input,
+    .phone-input input {
+        font-size: 16px;
     }
 
-    .extra input{
-        font-size: 20px;
+    .extra input {
+        font-size: 16px;
     }
 
-    .btn-submit button{
+    .btn-submit button {
         width: 100px;
         height: 35px;
         font-size: 12px;
         position: absolute;
-        bottom: 7%;
+        bottom: 10%;
     }
 
 
-    .fourth-page-container{
-        width: 300px;
+    .checkbox-1 p,
+    .checkbox-2 p {
+        font-size: 12px;
+        display: inline-block;
+        padding: 0 0 0 0;
     }
 
-    .qna-page-container{
-        width: 300px;
+    .checkbox-2 input {
+        margin-left: -5px;
+    }
+
+    .agreement {
+        padding-left: 70px;
     }
 
 
-    .fifth-page-container{
-        width: 300px;
+    .fourth-page-container {
+        width: 100%;
+        margin: 0 auto;
+        height: 2400px;
     }
 
-    
-    
+    .first-row-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem 0;
+    }
+
+    .first-row-content img {
+        padding: 0;
+    }
+
+    .car-content-1,
+    .car-content-2,
+    .car-content-3 {
+        width: 90%;
+    }
+
+    .second-row-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.3rem 0;
+    }
+
+    .first-row-content img {
+        padding-left: 120px;
+    }
+
+    .second-row-content img {
+        padding-left: 120px;
+    }
+
+    .car-content-4,
+    .car-content-5,
+    .car-content-6 {
+        width: 90%;
+    }
+
+    .first-row-content button,
+    .second-row-content button {
+        padding: 0.5rem 11.5rem 0.5rem 11.5rem;
+    }
+
+    .qna-page {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .qna-page-container {
+        max-width: 400px;
+        margin: 0 auto;
+        height: auto;
+    }
+
+    .qna-name h2 {
+        line-height: 140%;
+        cursor: pointer;
+        font-weight: 700;
+        padding-bottom: 1rem;
+        text-align: center;
+    }
+
+    .qna-name img {
+        padding-left: 2rem;
+    }
+
+    .qna-box {
+        padding-top: 0;
+    }
+
+    .faq .faq-title {
+        font-size: 20px;
+    }
+
+    .faq-body .first-p {
+        font-size: 16px;
+    }
+
+    .faq-body .second-p {
+        font-size: 16px;
+    }
+
+    .last-faq {
+        padding-bottom: 8rem;
+    }
+
+
+    .fifth-page {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .fifth-page-container {
+        max-width: 400px;
+        margin: 0 auto;
+        height: auto;
+    }
+
+    .fifth-page-title {
+        padding-top: 5rem;
+    }
+
+    .fifth-page-title h2,
+    .fifth-page-title p {
+        text-align: center;
+    }
+
+    .fifth-page-sub-contents img {
+        width: 560px;
+        height: 150px;
+    }
+
+    .fifth-page .swiper-pagination {
+        bottom: 1%;
+    }
+
+    .name-icon-review p {
+        font-size: 12px;
+    }
+
+    .name-person {
+        padding-right: 1rem;
+    }
+
+    .image-person img {
+        width: 50px;
+        height: 50px;
+    }
+
 }
 
-@media (max-width: 348px){
+@media (max-width: 1024px) {
+    .first-page {
+        background: url('../images/icons/background-main.png') no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        background-position: bottom center;
+        position: relative;
+    }
 
-    .first-page{
+    .burger-logo i {
+        display: none;
+    }
+
+    .logo img {
+        width: 60%;
+        height: 40%;
+    }
+
+    .nav-bar ul li a {
+        font-size: 0.8rem;
+
+    }
+
+    .text-page {
+        padding-left: -1.5rem;
+    }
+
+    .buttons {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sub-title h1 {
+        font-size: 18px;
+    }
+
+    .main-title h2 {
+        font-size: 40px;
+    }
+
+    .description-1 {
+        font-size: 14px;
+    }
+
+    .btn1 {
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+        position: absolute;
+        bottom: 50px;
+        left: -10px;
+    }
+
+    .btn2 {
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+        position: absolute;
+        bottom: 50px;
+        left: 90px;
+        margin-left: 0.5rem;
+    }
+
+    .burger-logo {
+        display: block;
+        cursor: pointer;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .first-page {
         background: url('../images/icons/background-main.png') no-repeat;
         background-size: cover;
         width: 100%;
@@ -1222,60 +1203,767 @@ label span{
         background-position: bottom center;
     }
 
-    header{
+    .nav-bar ul li a {
+        display: none;
+    }
+
+    .logo img {
+        width: 80%;
+        height: 60%;
+    }
+
+    .burger-logo i {
+        display: block;
+    }
+
+    .burger-logo {
+        font-size: 2.5rem;
+        margin-left: 10rem;
+    }
+
+    .text-page {
+        padding-left: 0.1rem;
+        position: relative;
+        left: -20%;
+    }
+
+    .buttons {
+        position: relative;
+        padding-left: 0.1rem;
+        left: 20%;
+        top: 43%;
+    }
+
+    .sub-title h1 {
+        font-size: 16px;
+    }
+
+    .main-title h2 {
+        font-size: 36px;
+    }
+
+    .description-1 {
+        font-size: 12px;
+    }
+
+    .btn1 {
+        width: 70px;
+        height: 30px;
+        font-size: 10px;
+        position: absolute;
+        left: 0;
+    }
+
+    .btn2 {
+        width: 70px;
+        height: 30px;
+        font-size: 10px;
+        position: absolute;
+        left: 9%;
+    }
+
+}
+
+@media (max-width: 540px) {
+
+    .first-page {
+        background: url('../images/icons/background-main.png') no-repeat;
+        background-size: cover;
+        width: 50%;
+        height: 100vh;
+        background-position: top center;
+    }
+
+    header {
         padding: 0 0 0 20px;
     }
 
-    .burger-logo{
+    .burger-logo .burger-logo {
         position: relative;
-        right: 28%;
+        right: 15%;
         top: -20%;
     }
 
-    .burger-logo i{
+    .burger-logo i {
         position: absolute;
     }
 
-    .text-page{
-        position: relative;
-        left: 2.5%;
+
+    .text-page {
+        padding-left: 0.1rem;
     }
 
-
-    .sub-title h1{
-        font-size: 15px;
-    }
-
-    .main-title h2{
-        font-size: 34px;
-    }
-
-    .description-1{
-        font-size: 13px;
-    }
-
-    .buttons{
+    .buttons {
         position: relative;
         padding-left: 0.1rem;
-        left: 40%;
-        top: 37%;
     }
 
-    .btn1{
-        width: 60px;
+    .sub-title h1 {
+        font-size: 16px;
+    }
+
+    .main-title h2 {
+        font-size: 30px;
+    }
+
+    .description-1 {
+        font-size: 14px;
+    }
+
+    .buttons {
+        position: relative;
+        padding-left: 0.1rem;
+        left: 20%;
+        top: 43%;
+    }
+
+
+    .btn1 {
+        width: 70px;
         height: 30px;
         font-size: 10px;
         position: absolute;
-        bottom: 45%;
+        left: -5%;
     }
 
-    .btn2{
-        width: 60px;
+    .btn2 {
+        width: 70px;
         height: 30px;
         font-size: 10px;
         position: absolute;
-        bottom: 95%;
-        left: 11%;
+        left: 9%;
     }
-    
+
+}
+
+@media only screen and (max-width: 540px) {
+
+    header {
+        height: 60px;
+    }
+
+    .first-page {
+        background: url('../images/icons/background-main.png') no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        background-position: bottom right;
+        position: relative;
+        overflow-x: hidden;
+        /* Prevent horizontal scroll */
+    }
+
+    .burger-logo {
+        position: relative;
+        left: 16rem;
+        top: -1.2rem;
+        margin-left: auto;
+        color: #fff;
+    }
+
+    .first-page-container {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .text-page {
+        padding: 0 2rem;
+        margin-left: 14.5rem;
+    }
+
+    .buttons {
+        position: relative;
+        left: 14rem;
+        top: 23rem;
+        padding: 0 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .second-page-container {
+        width: 350px;
+        margin: 0 auto;
+    }
+
+    .second-page-title,
+    .second-page-subtitle {
+        font-size: 3rem;
+    }
+
+    .content-container .box {
+        width: 140%;
+    }
+
+    .second-page-icon {
+        margin-right: 4.5rem;
+    }
+
+    .second-page-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FCE7E7;
+        border: 1px solid #FCE7E7;
+        width: 103px;
+        height: 103px;
+        margin-inline: 12.5rem;
+        margin-top: 1.5rem;
+        border-style: none;
+        border-radius: 100px;
+    }
+
+    .d-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box {
+        margin-top: 1rem;
+    }
+
+    /* third-page-container */
+    .third-page {
+        width: 100%;
+    }
+
+    .third-page-container {
+        width: 100%;
+        margin: 0 auto;
+        height: 700px;
+        padding-right: 3rem;
+    }
+
+    .third-page-submit-page {
+        width: 80%;
+        height: 600px;
+        padding-bottom: 20rem;
+        position: relative;
+        top: 3rem;
+        left: 4.5rem;
+    }
+
+    .third-page h2 {
+        font-size: 20px;
+    }
+
+    .third-page h3 {
+        font-size: 16px;
+    }
+
+    .third-page-image-page img {
+        display: none;
+    }
+
+    form #user-car,
+    form #user-input {
+        width: 284px;
+    }
+
+    form #user-name,
+    form #user-phone {
+        width: 135px;
+    }
+
+    .name-input input,
+    .phone-input input {
+        font-size: 10px;
+    }
+
+    .extra input {
+        font-size: 20px;
+    }
+
+    .btn-submit button {
+        width: 100px;
+        height: 35px;
+        font-size: 12px;
+        position: absolute;
+        bottom: 10%;
+    }
+
+
+    .checkbox-1 p,
+    .checkbox-2 p {
+        font-size: 12px;
+        display: inline-block;
+        padding: 0 0 0 0;
+    }
+
+    .checkbox-2 input {
+        margin-left: -5px;
+    }
+
+    .agreement {
+        padding-left: 70px;
+    }
+
+
+    .fourth-page-container {
+        width: 100%;
+        margin: 0 auto;
+        height: 2400px;
+    }
+
+    .first-row-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem 0;
+    }
+
+    .first-row-content img {
+        padding: 0;
+    }
+
+    .car-content-1,
+    .car-content-2,
+    .car-content-3 {
+        width: 90%;
+    }
+
+    .second-row-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.3rem 0;
+    }
+
+    .first-row-content img {
+        padding-left: 120px;
+    }
+
+    .second-row-content img {
+        padding-left: 120px;
+    }
+
+    .car-content-4,
+    .car-content-5,
+    .car-content-6 {
+        width: 90%;
+    }
+
+    .first-row-content button,
+    .second-row-content button {
+        padding: 0.5rem 11.5rem 0.5rem 11.5rem;
+    }
+
+    .qna-page {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .qna-page-container {
+        max-width: 400px;
+        margin: 0 auto;
+        height: auto;
+    }
+
+    .qna-name h2 {
+        line-height: 140%;
+        cursor: pointer;
+        font-weight: 700;
+        padding-bottom: 1rem;
+        text-align: center;
+    }
+
+    .qna-name img {
+        padding-left: 2rem;
+    }
+
+    .qna-box {
+        padding-top: 0;
+    }
+
+    .faq .faq-title {
+        font-size: 20px;
+    }
+
+    .faq-body .first-p {
+        font-size: 16px;
+    }
+
+    .faq-body .second-p {
+        font-size: 16px;
+    }
+
+    .last-faq {
+        padding-bottom: 8rem;
+    }
+
+
+    .fifth-page {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .fifth-page-container {
+        max-width: 400px;
+        margin: 0 auto;
+        height: auto;
+    }
+
+    .fifth-page-title {
+        padding-top: 5rem;
+    }
+
+    .fifth-page-title h2,
+    .fifth-page-title p {
+        text-align: center;
+    }
+
+    .fifth-page-sub-contents img {
+        width: 560px;
+        height: 150px;
+    }
+
+    .fifth-page .swiper-pagination {
+        bottom: 1%;
+    }
+
+    .name-icon-review p {
+        font-size: 12px;
+    }
+
+    .name-person {
+        padding-right: 1rem;
+    }
+
+    .image-person img {
+        width: 50px;
+        height: 50px;
+    }
+
+}
+
+
+@media only screen and (max-width: 348px) {
+
+    header {
+        height: 60px;
+    }
+
+    .first-page {
+        background: url('../images/icons/background-main.png') no-repeat;
+        background-size: cover;
+        width: 100vw !important;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        background-position: center center;
+        position: relative;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        /* Prevent horizontal scroll */
+    }
+
+    .first-page-container {
+        width: 100%;
+        max-width: none;
+        margin: 0 auto;
+    }
+
+    .bg-black {
+        width: 100%;
+    }
+
+    .burger-logo {
+        position: relative;
+        left: 16rem;
+        top: -1.2rem;
+        margin-left: auto;
+        color: #fff;
+    }
+
+    .first-page-container {
+        width: 100%;
+        max-width: 340px;
+        margin: 0 auto;
+    }
+
+    .text-page {
+        padding: 0 0.5rem;
+        margin-left: 14.5rem;
+    }
+
+    .buttons {
+        position: relative;
+        left: 14rem;
+        top: 23rem;
+        padding: 0 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .second-page-container {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .second-page-text h3 {
+        text-align: center;
+        padding-left: 6rem;
+    }
+
+    .second-page-button {
+        padding-left: 6rem;
+    }
+
+    .second-page-title,
+    .second-page-subtitle {
+        font-size: 2rem;
+    }
+
+    .content-container .box {
+        width: 100%;
+    }
+
+    .content-container {
+        margin-right: -5rem;
+    }
+
+    .second-page-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FCE7E7;
+        border: 1px solid #FCE7E7;
+        width: 103px;
+        height: 103px;
+        margin-inline: 9rem;
+        margin-top: 1.5rem;
+        border-style: none;
+        border-radius: 100px;
+    }
+
+    .d-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box {
+        margin-top: 1rem;
+    }
+
+    /* third-page-container */
+    .third-page {
+        width: 340px;
+    }
+
+    .third-page-container {
+        width: 100%;
+        height: auto;
+        padding-right: 3rem;
+    }
+
+    .third-page-submit-page {
+        width: 90%;
+        height: 600px;
+        padding-bottom: 20rem;
+        position: relative;
+        top: 3rem;
+        left: 3rem;
+    }
+
+    .third-page h2 {
+        font-size: 20px;
+    }
+
+    .third-page h3 {
+        font-size: 16px;
+    }
+
+    .third-page-image-page img {
+        display: none;
+    }
+
+    form #user-car,
+    form #user-input {
+        width: 284px;
+    }
+
+    form #user-name,
+    form #user-phone {
+        width: 135px;
+    }
+
+    .name-input input,
+    .phone-input input {
+        font-size: 10px;
+    }
+
+    .extra input {
+        font-size: 20px;
+    }
+
+    .btn-submit button {
+        width: 100px;
+        height: 35px;
+        font-size: 12px;
+        position: absolute;
+        bottom: 10%;
+    }
+
+
+    .checkbox-1 p,
+    .checkbox-2 p {
+        font-size: 12px;
+        display: inline-block;
+        padding: 0 0 0 0;
+    }
+
+    .checkbox-2 input {
+        margin-left: -5px;
+    }
+
+    .agreement {
+        padding-left: 70px;
+    }
+
+
+    .fourth-page-container {
+        width: 100%;
+        margin: 0 auto;
+        height: 2400px;
+    }
+
+    .first-row-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem 0;
+    }
+
+    .first-row-content img {
+        padding: 0;
+    }
+
+    .car-content-1,
+    .car-content-2,
+    .car-content-3 {
+        width: 90%;
+    }
+
+    .second-row-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.3rem 0;
+    }
+
+    .first-row-content img {
+        padding-left: 120px;
+    }
+
+    .second-row-content img {
+        padding-left: 120px;
+    }
+
+    .car-content-4,
+    .car-content-5,
+    .car-content-6 {
+        width: 90%;
+    }
+
+    .first-row-content button,
+    .second-row-content button {
+        padding: 0.5rem 11.5rem 0.5rem 11.5rem;
+    }
+
+    .qna-page {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .qna-page-container {
+        max-width: 400px;
+        margin: 0 auto;
+        height: auto;
+    }
+
+    .qna-name h2 {
+        line-height: 140%;
+        cursor: pointer;
+        font-weight: 700;
+        padding-bottom: 1rem;
+        text-align: center;
+    }
+
+    .qna-name img {
+        padding-left: 2rem;
+    }
+
+    .qna-box {
+        padding-top: 0;
+    }
+
+    .faq .faq-title {
+        font-size: 20px;
+    }
+
+    .faq-body .first-p {
+        font-size: 16px;
+    }
+
+    .faq-body .second-p {
+        font-size: 16px;
+    }
+
+    .last-faq {
+        padding-bottom: 8rem;
+    }
+
+
+    .fifth-page {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .fifth-page-container {
+        max-width: 400px;
+        margin: 0 auto;
+        height: auto;
+    }
+
+    .fifth-page-title {
+        padding-top: 5rem;
+    }
+
+    .fifth-page-title h2,
+    .fifth-page-title p {
+        text-align: center;
+    }
+
+    .fifth-page-sub-contents img {
+        width: 560px;
+        height: 150px;
+    }
+
+    .fifth-page .swiper-pagination {
+        bottom: 1%;
+    }
+
+    .name-icon-review p {
+        font-size: 12px;
+    }
+
+    .name-person {
+        padding-right: 1rem;
+    }
+
+    .image-person img {
+        width: 50px;
+        height: 50px;
+    }
+
 }
